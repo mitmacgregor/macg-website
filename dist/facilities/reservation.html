@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>MacGregor House - About</title>
+    <title>MacGregor House - Room Reservation</title>
     <script type="text/javascript" src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 </head>
 
@@ -18,7 +18,7 @@
 
             <ul class="nav nav-pills">
                 <li class="nav-item"><a href="/" class="nav-link" aria-current="page">Home</a></li>
-                <li class="nav-item"><a href="/about.html" class="nav-link active">About</a></li>
+                <li class="nav-item"><a href="/about.html" class="nav-link">About</a></li>
                 <li class="nav-item">
                     <a href="#" class="nav-link dropdown-toggle bg-dark" data-bs-toggle="dropdown">Prospectives</a>
                     <ul class="dropdown-menu">
@@ -39,9 +39,9 @@
                     </ul>
                 </li>
                 <li class="nav-item">
-                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Facilities</a>
+                    <a href="#" class="nav-link dropdown-toggle active" data-bs-toggle="dropdown">Facilities</a>
                     <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="/facilities/reservation.html">Room Reservation</a></li>
+                        <li><a class="dropdown-item active" href="/facilities/reservation.html">Room Reservation</a></li>
                         <li><a class="dropdown-item" href="/facilities/laundry.html">Laundry</a></li>
                     </ul>
                 </li>
@@ -52,49 +52,46 @@
 
     <main>
 
-        <div class="position-relative overflow-hidden text-center macg-div-1">
-            <div class="py-5 h-100 w-100 semi-transparent-bg" style="padding-left: 30%; padding-right: 30%">
-                <div class="m-5" style="margin-top: 6em !important; margin-bottom: 6em !important;">
-                    <h1 class="display-4 fw-normal">MacGregor House</h1>
-                    <p class="lead fw-normal">Scroll through this page to see photos, facts, and other
-                        amazing aspects of the tallest, most diverse undergraduate dorm on campus</p>
+        <div class="container">
+            <div class="row text-center my-2">
+                <div class="column reservation-title">
+                    MacGregor Room Reservation Policy
                 </div>
             </div>
-        </div>
-
-        <div class="container-fluid text-center overflow-hidden text-bg-dark w-100 m-0 p-0">
-            <div class="row">
-                <div class="col-4 p-0 macg-div-game">
-                    <div class="semi-transparent-bg h-100 d-flex justify-content-center flex-column">
-                        <h1 class="display-4 fw-normal">Game Room</h1>
-                        <p class="lead fw-normal">A good space for chilling, equipped with a large projection screen,
-                            video and board games</p>
-                    </div>
-                </div>
-                <div class="col-md-4 p-0">
-                    <img src="../images/Study_Rooms_3.jpg" alt="study room" class="w-100" />
-                </div>
-                <div class="col-md-4 p-0">
-                    <img src="../images/Weight_Room_1.jpg" alt="weight room" class="w-100" />
+            <div class="row text-center mb-4">
+                <div class="column">
+                    <a href="https://forms.gle/FSMaJojzBsD3XGXU9" target="_blank">Fill out this form to submit a reservation request</a>
                 </div>
             </div>
             <div class="row">
-                <div class="col">
+                <div class="col-2">
 
                 </div>
-                <div class="col">
-
+                <div class="col-8">
+                    Rules go here.
                 </div>
-                <div class="col">
+                <div class="col-2">
 
                 </div>
             </div>
-        </div>
+            <div class="row mt-5">
+                <div class="col-2">
+
+                </div>
+                <div class="col-8">
+                    <iframe
+                        src="https://calendar.google.com/calendar/embed?height=600&wkst=1&bgcolor=%23ffffff&ctz=America%2FNew_York&src=Y19jOWZiMTMwMDMyNjRkNWJlY2I3NGNmOWJhNDJhMDg3ZDhhNGExODBkOTI3NDQxOTk0NDU4YTA3YWMxNDZlYjg4QGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20&src=ZTBzYTcxMXQzcjQwbGFuNGxtY2RoNTlhMGdAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&color=%23ad0000&color=%238E24AA"
+                        style="border-width:0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+                </div>
+                <div class="col-2">
+
+                </div>
+            </div>
         </div>
 
     </main>
 
-    <script src="./about.js"></script>
+    <script src="../reservation.js"></script>
 
 </body>
 
