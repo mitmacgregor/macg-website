@@ -5,7 +5,7 @@ import '../scss/common.scss'
 import '../scss/about.scss'
 
 // Import all of Bootstrap's JS
-import * as bootstrap from 'bootstrap'
+// import * as bootstrap from 'bootstrap'
 
 import game_room from '../images/Game_Room_2.jpg'
 import weight_room from '../images/Weight_Room_1.jpg'

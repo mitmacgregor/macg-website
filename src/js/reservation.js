@@ -5,4 +5,4 @@ import '../scss/common.scss'
 import '../scss/reservation.scss'
 
 // Import all of Bootstrap's JS
-import * as bootstrap from 'bootstrap'
+// import * as bootstrap from 'bootstrap'
