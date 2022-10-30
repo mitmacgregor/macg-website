@@ -2,6 +2,10 @@
 @import "~bootstrap/scss/functions";
 
 // 2. Include any default variable overrides here
+$primary: #dc3545;
+$secondary: tint-color($primary, 60%);
+$body-color: #fff;
+$body-bg: #212529;
 
 // 3. Include remainder of required Bootstrap stylesheets
 @import "~bootstrap/scss/variables";
@@ -20,18 +24,11 @@
 @import "~bootstrap/scss/navbar";
 @import "~bootstrap/scss/grid";
 @import "~bootstrap/scss/images";
+@import "~bootstrap/scss/tables";
 @import "~bootstrap/scss/containers";
 @import "~bootstrap/scss/dropdown";
 @import "~bootstrap/scss/utilities";
 @import "~bootstrap/scss/utilities/api";
-
-.bg-dark {
-    background-color: $gray-900  !important;
-}
-
-.nav-link, .nav-link:visited{
-    color: $red-500;
-}
 
 .nav-link:hover, .nav-link:active{
     color: $red-200;
@@ -39,8 +36,4 @@
 
 .nav-pills .nav-link.active{
     background-color: $red-800;
-}
-
-.dropdown-item:active{
-    background-color: $red-500;
 }
