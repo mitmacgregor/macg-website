@@ -10,7 +10,8 @@ module.exports = {
     entry: {
         index: './src/js/index.js',
         about: './src/js/about.js',
-        reservation: './src/js/reservation.js'
+        reservation: './src/js/reservation.js',
+        error: './src/js/404.js'
     },
     output: {
         path: path.resolve(__dirname, 'dist'),

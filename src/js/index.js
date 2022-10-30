@@ -8,5 +8,7 @@ if (process.env.NODE_ENV !== 'production') {
     console.log('Looks like we are in production mode!')
 }
 
+import outline from '../images/macgregor-schematic-outline.png'
+
 // Import all of Bootstrap's JS
-// import * as bootstrap from 'bootstrap'
+import Dropdown from 'bootstrap/js/dist/dropdown.js'
