@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>MacGregor House - Home</title>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="https://projects.davidlynch.org/maphilight/jquery.maphilight.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('.maphilighted').maphilight()
+        });
+    </script>
+</head>
+
+<body class="bg-dark text-light">
+    <div class="container">
+        <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
+            <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-light text-decoration-none">
+                <span class="fs-4">MacGregor House</span>
+            </a>
+
+            <ul class="nav nav-pills">
+                <li class="nav-item"><a href="/" class="nav-link active" aria-current="page">Home</a></li>
+                <li class="nav-item"><a href="/about.html" class="nav-link">About</a></li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link dropdown-toggle bg-dark" data-bs-toggle="dropdown">Prospectives</a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="/prospectives/i3.html">I3 Video</a></li>
+                        <li><a class="dropdown-item" href="/prospectives/rex.html">REX events</a></li>
+                        <li><a class="dropdown-item" href="/prospectives/cpw.html">CPW events</a></li>
+                        <li><a class="dropdown-item" href="/prospectives/ease.html">EASE Introduction</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Residents</a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="/residents/people.html">People</a></li>
+                        <li><a class="dropdown-item" href="/residents/resources.html">Resources</a></li>
+                        <li><a class="dropdown-item" href="/residents/support.html">Support</a></li>
+                        <li><a class="dropdown-item" href="/residents/inventory.html">Inventory</a></li>
+                        <li><a class="dropdown-item" href="/residents/policies.html">Policies</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Facilities</a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="/facilities/reservation.html">Room Reservation</a></li>
+                        <li><a class="dropdown-item" href="/facilities/laundry.html">Laundry</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item"><a href="/contact.html" class="nav-link">Contact Us</a></li>
+            </ul>
+        </header>
+    </div>
+
+    <main>
+
+        <div id="macg-image-map" style="width: 622px; margin: 0px auto;">
+            <div class="map-container">
+                <canvas id="map-canvas" height="610" width="622"></canvas>
+                <img src="./images/macgregor-schematic-outline.png" width="622" height="610" class="map maphilighted"
+                    usemap="#macg"
+                    style="opacity: 0; position: absolute; left: 0px; top: 0px; padding: 0px; border: 0px;">
+            </div>
+            <map name="macg">
+                <area href="/entry/a" shape="poly" coords="285,68,329,92,417,42,417,93,329,144,285,119" alt="Link"
+                    data-maphilight="{&quot;strokeColor&quot;:&quot;ffffff&quot;,&quot;strokeWidth&quot;:2,&quot;fillColor&quot;:&quot;80eeff&quot;,&quot;fillOpacity&quot;:0.5}"
+                    title="A Entry">
+                <area href="/entry/b" shape="poly" coords="285,119,329,144,417,93,417,144,329,194,285,169" alt="Link"
+                    data-maphilight="{&quot;strokeColor&quot;:&quot;ffffff&quot;,&quot;strokeWidth&quot;:2,&quot;fillColor&quot;:&quot;8080ff&quot;,&quot;fillOpacity&quot;:0.5}"
+                    title="B Entry">
+                <area href="/entry/c" shape="poly" coords="285,169,329,194,417,144,417,195,329,245,285,220" alt="Link"
+                    data-maphilight="{&quot;strokeColor&quot;:&quot;ffffff&quot;,&quot;strokeWidth&quot;:2,&quot;fillColor&quot;:&quot;80ff80&quot;,&quot;fillOpacity&quot;:0.5}"
+                    title="C Entry">
+                <area href="/entry/d" shape="poly" coords="285,220,329,245,417,195,417,245,329,295,285,270" alt="Link"
+                    data-maphilight="{&quot;strokeColor&quot;:&quot;ffffff&quot;,&quot;strokeWidth&quot;:2,&quot;fillColor&quot;:&quot;ff9180&quot;,&quot;fillOpacity&quot;:0.5}"
+                    title="D Entry">
+                <area href="/entry/e" shape="poly"
+                    coords="285,270,329,295,402,254,418,244,402,254,402,304,329,346,285,321" alt="Link"
+                    data-maphilight="{&quot;strokeColor&quot;:&quot;ffffff&quot;,&quot;strokeWidth&quot;:2,&quot;fillColor&quot;:&quot;0f0f0f&quot;,&quot;fillOpacity&quot;:0.5}"
+                    title="E Entry">
+                <area href="/entry/f" shape="poly"
+                    coords="402,254,446,228,593,313,593,381,520,423,520,355,475,330,447,346,402,322" alt="Link"
+                    data-maphilight="{&quot;strokeColor&quot;:&quot;ffffff&quot;,&quot;strokeWidth&quot;:2,&quot;fillColor&quot;:&quot;ff80ff&quot;,&quot;fillOpacity&quot;:0.5}"
+                    title="F Entry">
+                <area href="/entry/g" shape="poly" coords="475,330,520,355,520,423,329,533,329,466,285,440" alt="Link"
+                    data-maphilight="{&quot;strokeColor&quot;:&quot;ffffff&quot;,&quot;strokeWidth&quot;:2,&quot;fillColor&quot;:&quot;ff6600&quot;,&quot;fillOpacity&quot;:0.5}"
+                    title="G Entry">
+                <area href="/entry/h/index.html" shape="poly"
+                    coords="285,440,329,466,329,533,256,575,138,508,138,440,182,414,256,457" alt="Link"
+                    data-maphilight="{&quot;strokeColor&quot;:&quot;ffffff&quot;,&quot;strokeWidth&quot;:2,&quot;fillColor&quot;:&quot;88ff80&quot;,&quot;fillOpacity&quot;:0.5}"
+                    title="H Entry">
+                <area href="/entry/j" shape="poly"
+                    coords="182,414,138,440,138,508,65,465,65,398,152,347,196,372,196,422" alt="Link"
+                    data-maphilight="{&quot;strokeColor&quot;:&quot;ffffff&quot;,&quot;strokeWidth&quot;:2,&quot;fillColor&quot;:&quot;bf80ff&quot;,&quot;fillOpacity&quot;:0.5}"
+                    title="J Entry">
+            </map>
+        </div>
+
+        <div class="container pt-3">
+            <div class="row justify-content-center text-center">
+                <div class="column">
+                    Many parts of the new website is still being built. For the old website, visit <a
+                        href="http://macgregor.mit.edu:8081" target="_blank">here</a>, though it's almost completely
+                    outdated.
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+    <script src="./index.js"></script>
+</body>
+
+</html>

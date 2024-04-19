@@ -1,0 +1,27 @@
+.map-container{
+    display: block; 
+    background: url('http://macgregor.mit.edu/images/macgregor-schematic-outline.png'); 
+    position: relative; 
+    padding: 0px; 
+    width: 622px; 
+    height: 610px;
+}
+
+.map-text-container{
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    font-size: large;
+    margin-top: 1em;
+}
+
+#map-canvas{
+    width: 622px; 
+    height: 610px; 
+    position: absolute; 
+    left: 0px; 
+    top: 0px; 
+    padding: 0px; 
+    border: 0px; 
+    opacity: 1;
+}
